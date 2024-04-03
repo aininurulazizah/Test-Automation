@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.calculator.CalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-04-03T07:25:32" hostname="LAPTOP-27UOM599" time="0.047">
+  <properties/>
+  <testcase name="testAmbangBatas()" classname="com.calculator.CalculatorTest" time="0.029"/>
+  <testcase name="testPengurangan()" classname="com.calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testPenjumlahan()" classname="com.calculator.CalculatorTest" time="0.003"/>
+  <testcase name="testPembagian()" classname="com.calculator.CalculatorTest" time="0.002"/>
+  <testcase name="testPerkalian()" classname="com.calculator.CalculatorTest" time="0.006"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
