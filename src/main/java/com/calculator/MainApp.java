@@ -22,6 +22,8 @@ public class MainApp {
             // Hitung dan tampilkan hasil
             int hasil = ValidasiKomputasi.hitung(operator, operand1, operand2);
             System.out.println("Hasil: " + hasil);
+        } catch (NumberFormatException e) {
+            System.out.println("Error: Input harus berupa angka");
         } catch (IllegalArgumentException | ArithmeticException e) {
             System.out.println(e.getMessage());
         }
