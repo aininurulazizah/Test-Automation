@@ -1,5 +1,10 @@
 package com.calculator;
 
+import com.calculator.Penjumlahan;
+import com.calculator.Pengurangan;
+import com.calculator.Perkalian;
+import com.calculator.Pembagian;
+
 public class ValidasiKomputasi {
     public static int hitung(String operator, int operand1, int operand2) {
         // Validasi operand dan operator

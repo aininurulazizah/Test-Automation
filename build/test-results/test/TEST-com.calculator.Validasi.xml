@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.calculator.Validasi" tests="14" skipped="0" failures="0" errors="0" timestamp="2024-04-20T11:08:45" hostname="DESKTOP-LAKB5DO" time="0.057">
+  <properties/>
+  <testcase name="M2TC14validasiPembagian()" classname="com.calculator.Validasi" time="0.001"/>
+  <testcase name="M2TC3Operand2MelebihiRangeAtasTest()" classname="com.calculator.Validasi" time="0.004"/>
+  <testcase name="M2TC10ValidasiInputOperatorTambahTest()" classname="com.calculator.Validasi" time="0.001"/>
+  <testcase name="M2TC4Operand2MelebihiRangeBawahTest()" classname="com.calculator.Validasi" time="0.002"/>
+  <testcase name="M2TC5KeduaOperandMelebihiRangeAtasTest()" classname="com.calculator.Validasi" time="0.005"/>
+  <testcase name="M2TC8Operand1MelebihiRangeBawahOperand2MelebihiRangeAtasTest()" classname="com.calculator.Validasi" time="0.01"/>
+  <testcase name="M2TC12ValidasiInputOperatorKaliTest()" classname="com.calculator.Validasi" time="0.001"/>
+  <testcase name="M2TC11ValidasiInputOperatorKurangTest()" classname="com.calculator.Validasi" time="0.001"/>
+  <testcase name="M2TC1Operand1MelebihiRangeAtasTest()" classname="com.calculator.Validasi" time="0.001"/>
+  <testcase name="M2TC9TC15OperatorTidakValidTest()" classname="com.calculator.Validasi" time="0.008"/>
+  <testcase name="M2TC2Operand1MelebihiRangeBawahTest()" classname="com.calculator.Validasi" time="0.003"/>
+  <testcase name="M2TC13validasiPembagian0()" classname="com.calculator.Validasi" time="0.001"/>
+  <testcase name="M2TC7Operand1MelebihiRangeAtasOperand2MelebihiRangeBawahTest()" classname="com.calculator.Validasi" time="0.001"/>
+  <testcase name="M2TC6Operand1MelebihiRangeBawahTest()" classname="com.calculator.Validasi" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

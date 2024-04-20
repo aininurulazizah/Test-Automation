@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.calculator.CalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-04-20T05:35:49" hostname="LAPTOP-27UOM599" time="0.022">
+<testsuite name="com.calculator.CalculatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-04-20T11:08:45" hostname="DESKTOP-LAKB5DO" time="0.013">
   <properties/>
-  <testcase name="M6TC1pembagianTest()" classname="com.calculator.CalculatorTest" time="0.017"/>
+  <testcase name="M6TC1pembagianTest()" classname="com.calculator.CalculatorTest" time="0.003"/>
   <testcase name="M3TC1penjumlahanTest()" classname="com.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="M5TC1perkalianTest()" classname="com.calculator.CalculatorTest" time="0.001"/>
-  <testcase name="M4TC1penguranganTest()" classname="com.calculator.CalculatorTest" time="0.001"/>
+  <testcase name="M5TC1perkalianTest()" classname="com.calculator.CalculatorTest" time="0.002"/>
+  <testcase name="M4TC1penguranganTest()" classname="com.calculator.CalculatorTest" time="0.003"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
