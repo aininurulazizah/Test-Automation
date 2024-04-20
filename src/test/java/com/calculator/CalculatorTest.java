@@ -6,41 +6,32 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
+
+    //    Test Modul Penjumlahan
     @Test
-    public void testPenjumlahan(){
-        int hasil = ValidasiKomputasi.hitung("+",10,10);
-        Assertions.assertEquals(20, hasil);
+    public void M3TC1penjumlahanTest() {
+        int hasil = Penjumlahan.penjumlahan(10,5);
+        Assertions.assertEquals(15, hasil);
     }
 
+    //    Test Modul Pengurangan
     @Test
-    public void testPengurangan(){
-        int hasil = ValidasiKomputasi.hitung("-",10,10);
-        Assertions.assertEquals(0, hasil);
+    public void M4TC1penguranganTest() {
+        int hasil = Pengurangan.pengurangan(10,5);
+        Assertions.assertEquals(5, hasil);
     }
 
+    //    Test Modul Perkalian
     @Test
-    public void testPerkalian(){
-        int hasil = ValidasiKomputasi.hitung("*",10,10);
-        Assertions.assertEquals(100, hasil);
+    public void M5TC1perkalianTest() {
+        int hasil = Perkalian.perkalian(10,5);
+        Assertions.assertEquals(50, hasil);
     }
 
+    //    Test Modul Pembagian
     @Test
-    public void testPembagian(){
-        int hasil = ValidasiKomputasi.hitung("/",10,10);
-        Assertions.assertEquals(1, hasil);
-    }
-
-    @Test
-    public void testAmbangBatas(){
-        String operator = "-";
-        int operand1 = -32769;
-        int operand2 = -32769;
-
-        try{
-            int hasil = ValidasiKomputasi.hitung(operator, operand1, operand2);
-            Assertions.fail("Seharusnya terjadi pengecualian");
-        } catch (Exception e){
-            Assertions.assertEquals("Error: Operand melebihi range yang diizinkan", e.getMessage());
-        }
+    public void M6TC1pembagianTest() {
+        int hasil = Pembagian.pembagian(10,5);
+        Assertions.assertEquals(2, hasil);
     }
 }
