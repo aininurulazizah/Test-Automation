@@ -16,19 +16,42 @@ Untuk mengoperasikan kalkulator, pengguna akan diminta untuk:
 
 
 ### Prerequisite ###
-1. **IntelliJ** sebagai IDE pengembangan program. Anda dapat menggunakan IDE lain yang mendukung pemrograman Java seperti VSCode atau Eclipse IDE
-2. **Java 11** sebagai bahasa pemrograman yang digunakan dalam mengembangkan program
-3. **Gradle 8.6** sebagai alat otomatisasi build yang kuat untuk mengelola dependensi, mengkonfigurasi proyek, dan mengeksekusi tugas-tugas build. 
-4. **JUnit 5** sebagai pustaka pengujian unit untuk Java yang memungkinkan pengembang untuk menulis dan menjalankan pengujian unit
+- **IntelliJ** sebagai IDE pengembangan program. Anda dapat menggunakan IDE lain yang mendukung pemrograman Java seperti VSCode atau Eclipse IDE
+- **Java 11** sebagai bahasa pemrograman yang digunakan dalam mengembangkan program
+- **Gradle 8.6** sebagai alat otomatisasi build yang kuat untuk mengelola dependensi, mengkonfigurasi proyek, dan mengeksekusi tugas-tugas build.
+- **JUnit 5** sebagai pustaka pengujian unit untuk Java yang memungkinkan pengembang untuk menulis dan menjalankan pengujian unit
 
 ### Struktur Project ###
+```
+.
+├── src
+│   ├── main/java/com/calculator
+│   │   ├── MainApp.java
+│   │   ├── Pembagian.java
+│   │   ├── Pengurangan.java
+│   │   ├── Penjumlahan.java
+│   │   ├── Perkalian.java
+│   │   └── ValidasiKomputasi.java
+│   └── test/java/com/calculator
+│        └── CalculatorTest.java
+```
 
 ### Cara Instalasi ###
+1. Clone repositori dengan menjalankan perintah
+```
+git clone https://github.com/aininurulazizah/Test-Automation.git
+```
+2. Buka proyek menggunakan IDE. Proses instalasi JavaBuild akan dilakukan secara otomatis ketika proyek dibuka dan tunggu hingga proses instalasi selesai.
 
 ### Menjalankan Program ###
+1. Pastikan anda berada dalam direktori `src/main/java`
+2. Ketik perintah berikut dalam terminal untuk menjalankan program:
+```
+java com.calculator.MainApp
+```
 
 ### Menjalankan Testing ###
-1. Pastikan anda berada pada direktori Test-Automation
+1. Pastikan anda berada pada direktori `Test-Automation`
 2. Jalankan perintah :
 ```
 gradlew test
@@ -36,14 +59,10 @@ gradlew test
 
 ### Mengakses Test Report ###
 Untuk melihat test report hasil pengujian dapat diakses melalui direktori : 
-```
-app\build\reports\tests\test\index.html.
-```
+`build\reports\tests\test\index.html`
 
 
 ### Nama Aggota ###
 1. Aini Nurul Azizah (211524034)
 2. Amelia Nathasa (211524036)
 3. Nayara Saffa (211524052)
-3B - D4 Teknik Informatika 
-
